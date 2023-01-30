@@ -23,10 +23,10 @@ def parse_args():
     # NIA2022
     parser.add_argument(
         '--image_dir', dest='image_dir', help='Directory path for gaze images.',
-        default='/data/l2cs_data/Image', type=str)
+        default='/l2cs_data/Image', type=str)
     parser.add_argument(
         '--label_dir', dest='label_dir', help='Directory path for gaze labels.',
-        default='/data/l2cs_data/Label/valid.label', type=str)
+        default='/l2cs_data/Label/valid.label', type=str)
 
     # Important args -------------------------------------------------------------------------------------------------------
     # ----------------------------------------------------------------------------------------------------------------------
