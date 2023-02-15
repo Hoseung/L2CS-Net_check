@@ -8,7 +8,6 @@ setup(
     author="DeepInsight",
     #package_dir={"nia22": "py"},
     packages=['l2cs'],
-    author_email="hschoi@dinsight.ai",
     url="",
     description="NIA2022 L2CS Gaze tracking model",
     long_description="",
