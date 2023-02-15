@@ -23,7 +23,7 @@ def parse_args():
     # NIA2022
     parser.add_argument(
         '--image_dir', dest='image_dir', help='Directory path for gaze images.',
-        default='./test_data/Facee', type=str)
+        default='./test_data/Face', type=str)
     parser.add_argument(
         '--label_dir', dest='label_dir', help='Directory path for gaze labels.',
         default='./test_data/valid.label', type=str)
